@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Shootka/homework1.git/static/css/main.7acaea2f.css",
-    "main.js": "/Shootka/homework1.git/static/js/main.07d3183d.js",
+    "main.js": "/Shootka/homework1.git/static/js/main.e793c5a7.js",
     "index.html": "/Shootka/homework1.git/index.html",
     "main.7acaea2f.css.map": "/Shootka/homework1.git/static/css/main.7acaea2f.css.map",
-    "main.07d3183d.js.map": "/Shootka/homework1.git/static/js/main.07d3183d.js.map"
+    "main.e793c5a7.js.map": "/Shootka/homework1.git/static/js/main.e793c5a7.js.map"
   },
   "entrypoints": [
     "static/css/main.7acaea2f.css",
-    "static/js/main.07d3183d.js"
+    "static/js/main.e793c5a7.js"
   ]
 }
