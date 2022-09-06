@@ -9,7 +9,7 @@ const Profile = ({ username, tag, location, avatar, stats }) => {
     <Card>
       <Flex>
         <Icon>
-          <img src={avatar} style={{ width: 100, height: 100 }} alt={'avatar'} />
+          <img src={avatar} style={{ width: 120, height: 120 }} alt={'avatar'} />
         </Icon>
         <ProfileBody tag={tag} location={location} username={username} />
       </Flex>
