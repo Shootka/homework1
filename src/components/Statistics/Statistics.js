@@ -8,10 +8,14 @@ const Statistics = ({ title, stats }) => {
     <StatisticCard>
       {title && <Title>{title}</Title>}
       <List>
-        {stats.map((elem) => {
-          return <Elem key={elem.id} color={getRandomColor()}>
-            <Label>{elem.label}</Label>
-            <Percentage>{elem.percentage}</Percentage>
+        {stats.map(({
+                      id,
+                      label,
+                      percentage,
+                    }) => {
+          return <Elem key={id} color={getRandomColor()}>
+            <Label>{label}</Label>
+            <Percentage>{percentage}</Percentage>
           </Elem>;
         })}
       </List>
@@ -21,7 +25,11 @@ const Statistics = ({ title, stats }) => {
 
 Statistics.propTypes = {
   title: PropTypes.string,
-  stats: PropTypes.array,
+  stats: PropTypes.arrayOf({
+    id: PropTypes.string,
+    label: PropTypes.string,
+    percentage: PropTypes.number,
+  }),
 };
 
 export default Statistics;
